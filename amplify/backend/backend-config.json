@@ -1,10 +1,16 @@
 {
-  "auth": {
-    "amplifydeploy44794ef2": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
+    "auth": {
+        "amplifydeploy44794ef2": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "type": "cicd"
+        }
     }
-  }
 }
